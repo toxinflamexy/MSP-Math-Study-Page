@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tecnicas de conteo</title>
+<link rel="stylesheet" type="text/css" href="teccon.css">
+
+</head>
+<body>
+
+	<div>
+	
+<center><img src="imagenespagina/logoslogan2.png" width="300px"> <br> <br><h1>Tecnicas de conteo</h1>
+	<br></center>
+<form action="principal.html">
+		<button>Regresar</button>
+	</form>
+	</div>
+
+
+<div class="pf"><p>Las técnicas de conteo son estrategias matemáticas usadas en probabilidad y estadística que permiten determinar el número total de resultados que pueden haber a partir de hacer combinaciones dentro de un conjunto o conjuntos de objetos. Este tipo de técnicas se utilizan cuando es prácticamente imposible o demasiado pesado hacer de forma manual combinaciones de diferentes elementos y saber cuántas de ellas son posibles.</p></div>
+
+
+<img src="https://pymstatic.com/52663/conversions/tecnicas-conteo-thumb.jpg" width="1330px">
+
+<div class="pf2"><p>Las principales técnicas de conteo son las siguientes cinco, aunque no las únicas, cada una con unas particularidades propias y utilizadas en función de los requisitos para saber cuántas combinaciones de conjuntos de objetos son posibles. <br><br>
+
+Realmente, este tipo de técnicas se pueden dividir en dos grupos, en función de su complejidad, siendo uno conformado por el principio multiplicativo y el principio aditivo, y el otro, estando conformado por las combinaciones y las permutaciones.<br><br>
+
+<h3>1. Principio multiplicativo<br><br></h3>
+Este tipo de técnica de conteo, junto con el principio aditivo, permiten comprender fácilmente y de forma práctica cómo funcionan estos métodos matemáticos.<br><br>
+
+Si un evento, llamemoslo N1, puede ocurrir de varias formas, y otro evento, N2, puede ocurrir de otras tantas, entonces, los eventos conjuntamente pueden ocurrir de N1 x N2 formas.
+<br><br>
+Este principio se utiliza cuando la acción es secuencial, es decir, está conformada por eventos que ocurren de forma ordenada, como son la construcción de una casa, el elegir los pasos de baile en una discoteca o el orden que se seguirá para preparar un pastel.<br><br>
+
+Por ejemplo:<br><br>
+
+En un restaurante, el menú consiste en un plato principal , un segundo y postre. De platos principales tenemos 4, de segundos hay 5 y de postres hay 3.<br><br>
+
+Entonces, N1 = 4; N2 = 5 y N3 = 3.
+<br><br>
+Así pues, las combinaciones que ofrece este menú serían 4 x 5 x 3 = 60
+<br><br>
+<h3>2. Principio aditivo<br><br></h3>
+En este caso, en vez de multiplicarse las alternativas para cada evento, lo que sucede es que se suman las varias formas en las que pueden ocurrir.<br><br>
+
+Esto quiere decir que si la primera actividad puede ocurrir de M formas, la segunda de N y la tercera L, entonces, de acuerdo a este principio, sería M + N + L.<br><br>
+
+Por ejemplo:<br><br>
+
+Queremos comprar chocolate, habiendo tres marcas en el supermercado: A, B y C.
+<br><br>
+El chocolate A se vende de tres sabores: negro, con leche y blanco, además de haber la opción sin o con azúcar para cada uno de ellos.
+<br><br>
+El chocolate B se vende de tres sabores, negro, con leche o blanco, con la opción de tener o no avellanas y con o sin azúcar.
+<br><br>
+El chocolate C se vende de tres sabores, negro, con leche y blanco, con opción de tener o no avellanas, cacahuete, caramelo o almendras, pero todos con azúcar.
+<br><br>
+En base a esto, la pregunta que se pretende responder es: ¿cuantas variedades distintas de chocolate se pueden comprar?
+<br><br>
+W = número de formas de seleccionar el chocolate A.<br><br>
+
+Y = número de formas de seleccionar el chocolate B.<br><br>
+
+Z = número de formas de seleccionar el chocolate C.<br><br>
+
+El siguiente paso consiste en una simple multiplicación.<br><br>
+
+W = 3 x 2 = 6.<br><br>
+
+Y = 3 x 2 x 2 = 12.<br><br>
+
+Z = 3 x 5 = 15.<br><br>
+
+W + Y + Z = 6 + 12 + 15 = 33 variedades de chocolate diferentes.<br><br>
+
+Para saber si se debe utilizar el principio multiplicativo o el aditivo, la pista principal es si la actividad en cuestión tiene una serie de pasos a realizarse, como era el caso del menú, o existen varias opciones, como es el caso del chocolate.<br><br>
+
+<h3>3. Permutaciones<br><br></h3>
+Antes de entender cómo hacer las permutaciones, es importante entender la diferencia entre una combinación y una permutación.<br><br>
+
+Una combinación es un arreglo de elementos cuyo orden no es importante o no cambia el resultado final.<br><br>
+
+En cambio, en una permutación, habría un arreglo de varios elementos en los que sí es importante tenerse en cuenta su orden o posición.<br><br>
+
+En las permutaciones, hay n cantidad de elementos distintos y se selecciona una cantidad de ellos, que sería r.<br><br>
+
+La fórmula que se utilizaría sería la siguiente: nPr = n!/(n-r)!<br><br>
+
+Por ejemplo:<br><br>
+
+Hay un grupo de 10 personas y hay un asiento en el que solo pueden caber cinco, ¿de cuántas formas se pueden sentar?<br><br>
+
+Se haría lo siguiente:<br><br>
+
+10P5=10!/(10-5)!=10 x 9 x 8 x 7 x 6 = 30.240 formas diferentes de ocupar el banco.<br><br>
+
+<h3>4. Permutaciones con repetición<br><br></h3>
+Cuando se quiere saber el número de permutaciones en un conjunto de objetos, algunos de los cuales son iguales, se procede a realizar lo siguiente:<br><br>
+
+Teniéndose en cuenta que n son los elementos disponibles, algunos de ellos repetidos.<br><br>
+
+Se seleccionan todos los elementos n.<br><br>
+
+Se aplica la siguiente fórmula: = n!/n1!n2!...nk!<br><br>
+
+Por ejemplo:<br><br>
+
+En un barco se pueden izar 3 banderas rojas, 2 amarillas y 5 verdes. ¿Cuántas señales diferentes se podrían hacer izando las 10 banderas que se tienen?<br><br>
+
+10!/3!2!5! = 2.520 combinaciones de banderas diferentes.<br><br>
+
+<h3>5. Combinaciones<br><br></h3>
+En las combinaciones, a diferencia de lo que sucedía con las permutaciones, el orden de los elementos no es importante.<br><br>
+
+La fórmula a aplicar es la siguiente: nCr=n!/(n-r)!r!<br><br>
+
+Por ejemplo:<br><br>
+
+Un grupo de 10 personas quieren hacer limpieza en el barrio y se preparan para formar grupos de 2 miembros cada uno, ¿cuántos grupos son posibles?<br><br>
+
+En este caso, n = 10 y r = 2, así pues, aplicando la fórmula:<br><br>
+
+10C2=10!/(10-2)!2!=180 parejas distintas.</p>
+
+</div>
+
+<footer>
+	<div class="f">
+
+		<center>
+
+			<h3>Derechos reservados por el equipo compuesto por: Cristian Rodriguez, Martha Lavadores, Lourdes Ku Chan y Victor Aguilar del 3-B Instituto Comercial Bancarios - 2021 Materia: Administracion Contemporanea y liderazgo emprendedor(ACLE).
+		</h3>
+	</center>
+
+		
+
+	</div>
+
+
+
+</footer>
+
+
+</body>
+</html>

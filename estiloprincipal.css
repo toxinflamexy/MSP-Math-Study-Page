@@ -1,0 +1,179 @@
+@font-face{
+	font-family: "mi fuente";
+	src: url('FOUNTS/Montserrat-Italic.ttf');
+}
+
+@font-face{
+	font-family: "mi fuente2";
+	src: url('FOUNTS/Montserrat-Light.ttf');
+}
+
+body{
+	background-color: #33A85E;
+}
+
+div.title{
+	font-family: mi fuente;
+	background: black;
+	width: 96%;
+	padding: 2%;
+	color: white;
+
+}
+
+
+
+ div.info {
+ 	font-family: arial;
+ 	color: black;
+	display: inline-block;
+	background-color: white;
+	padding: 3%;
+	width: 94%
+	
+}
+
+a{
+	text-decoration: none;
+	font-family: mi fuente2;
+	color: white;
+}
+
+p.t{
+	color: black;
+	font-family: mi fuente;
+}
+
+p{
+	color: white;
+}
+
+footer{
+	font-family: arial;
+	background: black;
+	margin-top: 1%;
+	padding: 5%;
+	color: white;
+}
+
+nav div.l1{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 5%;
+}
+
+nav div.l2{
+	background-color: black ;
+width: 25%;
+display: inline-block;
+padding: 1%;
+margin-left:  3%;
+margin-bottom: 2%;
+}
+
+nav div.l3{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 3%;
+	marg
+}
+
+nav div.l4{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 5%;
+}
+
+nav div.l5{
+	background-color: black;
+width: 25%;
+display: inline-block;
+padding: 1%;
+margin-left:  3%;
+margin-bottom: 2%;
+}
+
+nav div.l6{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 3%;
+	
+}
+
+nav div.l7{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 5%;
+}
+
+nav div.l8{
+	background-color: black;
+width: 25%;
+display: inline-block;
+padding: 1%;
+margin-left:  3%;
+margin-bottom: 2%;
+}
+
+nav div.l9{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 3%;
+	
+}
+
+nav div.l10{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 5%;
+}
+
+nav div.l11{
+	background-color: black;
+width: 25%;
+display: inline-block;
+padding: 1%;
+margin-left:  3%;
+margin-bottom: 2%;
+}
+
+nav div.l12{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 3%;
+	
+}
+
+nav div.l13{
+	background-color: black;
+width: 25%;
+display: inline-block;
+padding: 1%;
+margin-left:  5%;
+margin-bottom: 2%;
+}
+
+nav div.l14{
+	background-color: black;
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 3%;
+	
+}

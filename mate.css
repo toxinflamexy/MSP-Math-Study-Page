@@ -1,0 +1,31 @@
+@font-face{
+	font-family: "mi fuente2";
+	src: url('FOUNTS/Montserrat-Light.ttf');
+}
+
+body{
+	background: url(https://besthqwallpapers.com/Uploads/23-8-2016/177/thumb2-formula-math-texture.jpg);
+}
+
+div{
+
+	background-color:black;
+	padding: 3%;
+	widows: 90%;
+	margin-top: 3%;
+	color: white;
+	font-family: mi fuente2;
+}
+
+button{
+	width: 15%;
+	padding: 1%;
+	background-color: grey ;
+	color: white;
+	font-family: mi fuente2;
+}
+
+div button:hover{
+	background: #33A85E;
+}
+

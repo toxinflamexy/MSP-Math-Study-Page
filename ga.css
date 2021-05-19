@@ -1,0 +1,83 @@
+@font-face{
+	font-family: "mi fuente2";
+	src: url('FOUNTS/Montserrat-Light.ttf');
+}
+
+body{
+	background-color: #26F062;
+
+}
+
+div{
+	background-color: black;
+	display: inline-block;
+	width: 98%;
+	padding: 1%;
+}
+
+form {
+	margin: 0%;
+	width: 10%;
+}
+
+div h1{
+	width: 50%;
+	margin:0%;
+	font-family: mi fuente2;
+
+
+}
+
+button{
+width: 100%;
+padding: 5%;
+border-color: white;
+color: white;
+background-color: grey;
+}
+
+h1{
+	color: white;
+}
+
+div.pf{
+	width: 98%;
+	background-color: white;
+	font-family: mi fuente2;
+}
+
+div.pf p{
+	width: 85%;
+	padding: 2%;
+	margin-left: 5%;
+}
+
+div.pf2{
+	width: 98%;
+	background-color: white;
+	font-family: mi fuente2;
+}
+
+div.pf2 p{
+	width: 85%;
+	padding: 2%;
+	margin-left: 5%;
+}
+a{
+	color: white;
+	font-family: mi funete2;
+}
+
+footer div.f{
+	color: white;
+	width: 91%;
+	background: black;
+	margin-top: 1%;
+	padding: 5%;
+	font-family: arial;
+}
+
+h3.tex{
+	color: white;
+	font-family: mi fuente2;
+}
