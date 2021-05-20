@@ -1,11 +1,11 @@
 @font-face{
 	font-family: "mi fuente";
-	src: url('FOUNTS/Montserrat-Italic.ttf');
+	src: url('Montserrat-Italic.ttf');
 }
 
 @font-face{
 	font-family: "mi fuente2";
-	src: url('FOUNTS/Montserrat-Light.ttf');
+	src: url('Montserrat-Light.ttf');
 }
 
 body{
