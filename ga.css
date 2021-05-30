@@ -17,7 +17,7 @@ div{
 
 form {
 	margin: 0%;
-	width: 10%;
+	width: 15%;
 }
 
 div h1{
@@ -29,8 +29,9 @@ div h1{
 }
 
 button{
+
 width: 100%;
-padding: 5%;
+padding: 10%;
 border-color: white;
 color: white;
 background-color: grey;
@@ -80,4 +81,8 @@ footer div.f{
 h3.tex{
 	color: white;
 	font-family: mi fuente2;
+}
+
+button:hover{
+	background: #33A85E;
 }

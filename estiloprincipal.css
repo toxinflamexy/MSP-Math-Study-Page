@@ -9,7 +9,7 @@
 }
 
 body{
-	background-color: #33A85E;
+	background-color: #1C5C33;
 }
 
 div.title{
@@ -176,4 +176,60 @@ nav div.l14{
 	padding: 1%;
 	margin-left: 3%;
 	
+}
+
+div.l1:hover{
+	background: #38BA68;
+}
+
+div.l2:hover{
+	background: #38BA68;
+}
+
+div.l3:hover{
+	background: #38BA68;
+}
+
+div.l4:hover{
+	background: #38BA68;
+}
+
+div.l5:hover{
+	background: #38BA68;
+}
+
+div.l6:hover{
+	background: #38BA68;
+}
+
+div.l7:hover{
+	background: #38BA68;
+}
+
+div.l8:hover{
+	background: #38BA68;
+}
+
+div.l9:hover{
+	background: #38BA68;
+}
+
+div.l10:hover{
+	background: #38BA68;
+}
+
+div.l11:hover{
+	background: #38BA68;
+}
+
+div.l12:hover{
+	background: #38BA68;
+}
+
+div.l13:hover{
+	background: #38BA68;
+}
+
+div.l14:hover{
+	background: #38BA68;
 }
